@@ -8,7 +8,8 @@ export function Results({ showResults, recommendations }) {
                 <ul className="recommendations">
                     {recommendations.map(({ name, showing }, idx) => (
                         <li key={idx}>
-                            {name}, showing at {DateFns.format(showing, 'haaa')}
+                            {name}, showing at{' '}
+                            {DateFns.format(showing, 'h:mmaaa')} (local time)
                         </li>
                     ))}
                 </ul>
