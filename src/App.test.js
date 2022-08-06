@@ -3,5 +3,5 @@ import App from './App';
 
 test('renders App without crashing', () => {
     render(<App />);
-    screen.getByText('Hôm nay xem gì?');
+    screen.getByText("Today's Movie Recommendations");
 });

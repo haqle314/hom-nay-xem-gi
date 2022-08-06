@@ -1,4 +1,4 @@
-# Hôm nay xem gì
+# Today's Movie Recommendations
 
 Live app at [haqle314.github.io](https://haqle314.github.io/hom-nay-xem-gi)
 

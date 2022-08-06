@@ -25,7 +25,7 @@ function App({ listingService }) {
 
     return (
         <div className="App">
-            Hôm nay xem gì?
+            Today's Movie Recommendations
             <RecommendationsForm
                 {...{
                     genres,
